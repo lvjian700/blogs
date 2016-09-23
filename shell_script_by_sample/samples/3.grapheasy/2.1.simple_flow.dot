@@ -1,0 +1,1 @@
+[Database daily backup] { border: none; } -> [SNS Topic] -> [Email notification] { border: none;  }

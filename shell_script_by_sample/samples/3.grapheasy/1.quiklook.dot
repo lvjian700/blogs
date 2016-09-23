@@ -1,0 +1,6 @@
+[ Bonn ] -> [ Berlin ]
+[ Berlin ] -> [ Frankfurt ] { border: 1px dotted black; }
+[ Frankfurt ] -> [ Dresden ]
+[ Berlin ] ..> [ Potsdam ]
+[ Potsdam ] => [ Cottbus ]
+

@@ -1,0 +1,5 @@
+( Publisher Event
+    [ Publisher ] { border: none; } -> [publisher-event-topic] -> [ consumer-queue ] -> [ Consumer ] { border: none; }
+)
+[ consumer-queue] { flow: down; } ..> [ consumer-queue-\nqueue-dead ] { border: 1px dotted black; } ..> [ \nCould Watch Alarm ]
+[ \nCould Watch Alarm ] { border: 1px dotted black; flow: down; } ..> [ consumser-\nalarm-topic ] { border: 1px dotted black; flow: down; } ..> [ Email ] { border: 1px dotted black; }
