@@ -1,0 +1,40 @@
+#!/bin/bash
+
+# 输出帮助文档
+function usage() {
+cat << EOF
+Usage:
+  ./git-like <command> [<args>]
+
+Commands:
+  status        Print current status
+  commit        Commit changes with message
+EOF
+
+  exit 0
+}
+
+# 默认行为
+if [ $# -lt 1 ]; then
+  usage
+fi
+
+# status Sub-Command
+function status() {
+  echo "Print current status"
+}
+
+function commit() {
+  if [ $# != 1 ]; then
+cat << EOF
+Usage:
+  ./git-like commit <message>
+EOF
+    exit 0
+  fi
+
+  local msg=$1
+  echo "Commit your changes with message: $msg"
+}
+
+$@
