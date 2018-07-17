@@ -145,6 +145,7 @@ class Configuration {
         }
         set {
             dict[member] = newValue
+          
         }
     }
 }
@@ -152,5 +153,7 @@ class Configuration {
 var config = Configuration()
 config.url = "http://www.google.com"
 config.url
+config.name = "NiuX"
+
 
 //: [Next](@next)
