@@ -1,0 +1,11 @@
+{
+  "id": 1,
+  "name": "Guitar",
+  "description": "Still has most of its strings!",
+  "price": "41.99",
+  "sold": false,
+  "url": "https://example.com/products/1",
+  "tags": [ "music", "electric" ],
+  "created": "2018-05-01T10:39:04 -0700",
+  "last_updated": "2018-05-04T16:47:39 -0700"
+}

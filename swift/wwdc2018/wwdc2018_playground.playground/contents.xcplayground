@@ -3,6 +3,7 @@
     <pages>
         <page name='1.What&apos;s new in Swift 4.2'/>
         <page name='2.Getting the Most out of Playgrounds in Xcode'/>
-        <page name='3. Effective Collections'/>
+        <page name='3.Effective Collections'/>
+        <page name='4.Data you can trust'/>
     </pages>
 </playground>
