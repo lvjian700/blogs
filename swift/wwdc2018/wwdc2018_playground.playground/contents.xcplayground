@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios' display-mode='rendered' executeOnSourceChanges='false'>
+<playground version='6.0' target-platform='ios' display-mode='raw' executeOnSourceChanges='false'>
     <pages>
         <page name='1.What&apos;s new in Swift 4.2'/>
         <page name='2.Getting the Most out of Playgrounds in Xcode'/>
+        <page name='3. Effective Collections'/>
     </pages>
 </playground>
