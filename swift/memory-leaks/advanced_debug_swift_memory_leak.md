@@ -12,7 +12,7 @@ In 2016 WWDC Apple introduced two new Visual Debugging tools on Xcode in the [S
 3. Click the Debug Memory Graph button on Xcode, Then the memory graph will show up.
    ![memory graph button](images/memory graph button.png)
 
-Here I want to share a story from the people of our team. 
+
 
 ### 1. A story
 
